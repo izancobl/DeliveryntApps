@@ -1,0 +1,14 @@
+{
+  "mode": "drive",
+  "agents": [],
+  "shipments": [],
+  "locations": [
+    {
+      "id": "warehouse-0",
+      "location": [
+        2.1287487,
+        41.396318
+      ]
+    }
+  ]
+}

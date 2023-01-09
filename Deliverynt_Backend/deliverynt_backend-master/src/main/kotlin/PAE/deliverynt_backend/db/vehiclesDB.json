@@ -1,0 +1,19 @@
+{
+  "vehicles": [
+    {
+      "numberPlate": "3210JKT",
+      "battery": 100,
+      "capacity": 200
+    },
+    {
+      "numberPlate": "3333ZZZ",
+      "battery": 100,
+      "capacity": 180
+    },
+    {
+      "numberPlate": "1111AAA",
+      "battery": 50,
+      "capacity": 70
+    }
+  ]
+}

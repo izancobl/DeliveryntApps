@@ -1,0 +1,47 @@
+.imageContainer2 > img {
+    height: 100px;
+    width: 85px;
+}
+
+.comandaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+    height: 120px;
+    padding: 10px;
+}
+
+.comandaInformation {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+}
+
+.comandaIdentifier, .comandaUbication, .comandaCapacity {
+    display: flex;
+   align-items: center;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 0.05px;
+}
+
+.comandaName {
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.boldText {
+    font-weight: 500;
+    padding-left: 6px;
+}
+
+.productesDeComandaContainer {
+    padding-left: 200px;
+}

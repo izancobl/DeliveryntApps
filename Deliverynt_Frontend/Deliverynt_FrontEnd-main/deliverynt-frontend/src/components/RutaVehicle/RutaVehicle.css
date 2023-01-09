@@ -1,0 +1,8 @@
+.vehicle, .comandes {
+    display: flex;
+}
+
+.comandes {
+    flex-direction: column;
+    padding-left: 200px;
+}

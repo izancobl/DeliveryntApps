@@ -1,0 +1,545 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "mode": "drive",
+    "params": {
+      "mode": "drive",
+      "agents": [
+        {
+          "start_location": [
+            2.029982,
+            41.328411
+          ],
+          "time_windows": [
+            [
+              0,
+              7200
+            ]
+          ]
+        },
+        {
+          "start_location": [
+            2.029982,
+            41.328411
+          ],
+          "time_windows": [
+            [
+              0,
+              7200
+            ]
+          ]
+        }
+      ],
+      "shipments": [
+        {
+          "id": "order_1",
+          "pickup": {
+            "location_index": 0,
+            "duration": 120
+          },
+          "delivery": {
+            "location": [
+              2.103408,
+              41.357424
+            ],
+            "duration": 120
+          }
+        },
+        {
+          "id": "order_2",
+          "pickup": {
+            "location_index": 0,
+            "duration": 120
+          },
+          "delivery": {
+            "location": [
+              2.145950,
+              41.378290
+            ],
+            "duration": 120
+          }
+        },
+        {
+          "id": "order_3",
+          "pickup": {
+            "location_index": 0,
+            "duration": 120
+          },
+          "delivery": {
+            "location": [
+              2.079528,
+              41.319742
+            ],
+            "duration": 120
+          }
+        },
+        {
+          "id": "order_4",
+          "pickup": {
+            "location_index": 0,
+            "duration": 120
+          },
+          "delivery": {
+            "location": [
+              2.134579,
+              41.309541
+            ],
+            "duration": 120
+          }
+        }
+      ],
+      "locations": [
+        {
+          "id": "warehouse-0",
+          "location": [
+            2.029982,
+            41.328411
+          ]
+        }
+      ]
+    },
+    "issues": {
+      "unassigned_agents": [
+        1
+      ]
+    }
+  },
+  "features": [
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              2.029982,
+              41.328411
+            ],
+            [
+              2.103408,
+              41.357424
+            ]
+          ],
+          [
+            [
+              2.103408,
+              41.357424
+            ],
+            [
+              2.145950,
+              41.378290
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "agent_index": 0,
+        "time": 1506,
+        "start_time": 0,
+        "end_time": 1506,
+        "distance": 16369,
+        "legs": [
+          {
+            "time": 571,
+            "distance": 9865,
+            "from_waypoint_index": 0,
+            "to_waypoint_index": 1,
+            "steps": [
+              {
+                "from_index": 0,
+                "to_index": 1,
+                "time": 571,
+                "distance": 9865
+              }
+            ]
+          },
+          {
+            "time": 455,
+            "distance": 6504,
+            "from_waypoint_index": 1,
+            "to_waypoint_index": 2,
+            "steps": [
+              {
+                "from_index": 0,
+                "to_index": 1,
+                "time": 455,
+                "distance": 6504
+              }
+            ]
+          }
+        ],
+        "mode": "drive",
+        "actions": [
+          {
+            "index": 0,
+            "type": "start",
+            "start_time": 0,
+            "duration": 0,
+            "waypoint_index": 0
+          },
+          {
+            "index": 1,
+            "type": "pickup",
+            "start_time": 0,
+            "duration": 120,
+            "shipment_index": 1,
+            "shipment_id": "order_2",
+            "location_index": 0,
+            "location_id": "warehouse-0",
+            "waypoint_index": 0
+          },
+          {
+            "index": 2,
+            "type": "pickup",
+            "start_time": 120,
+            "duration": 120,
+            "shipment_index": 0,
+            "shipment_id": "order_1",
+            "location_index": 0,
+            "location_id": "warehouse-0",
+            "waypoint_index": 0
+          },
+          {
+            "index": 3,
+            "type": "delivery",
+            "start_time": 811,
+            "duration": 120,
+            "shipment_index": 0,
+            "shipment_id": "order_1",
+            "waypoint_index": 1
+          },
+          {
+            "index": 4,
+            "type": "delivery",
+            "start_time": 1386,
+            "duration": 120,
+            "shipment_index": 1,
+            "shipment_id": "order_2",
+            "waypoint_index": 2
+          },
+          {
+            "index": 5,
+            "type": "end",
+            "start_time": 1506,
+            "duration": 0
+          }
+        ],
+        "waypoints": [
+          {
+            "original_location": [
+              2.029982,
+              41.328411
+            ],
+            "location": [
+              2.029982,
+              41.328411
+            ],
+            "start_time": 0,
+            "duration": 240,
+            "actions": [
+              {
+                "index": 0,
+                "type": "start",
+                "start_time": 0,
+                "duration": 0,
+                "waypoint_index": 0
+              },
+              {
+                "index": 1,
+                "type": "pickup",
+                "start_time": 0,
+                "duration": 120,
+                "shipment_index": 1,
+                "shipment_id": "order_2",
+                "location_index": 0,
+                "location_id": "warehouse-0",
+                "waypoint_index": 0
+              },
+              {
+                "index": 2,
+                "type": "pickup",
+                "start_time": 120,
+                "duration": 120,
+                "shipment_index": 0,
+                "shipment_id": "order_1",
+                "location_index": 0,
+                "location_id": "warehouse-0",
+                "waypoint_index": 0
+              }
+            ],
+            "original_location_index": 0,
+            "original_location_id": "warehouse-0",
+            "next_leg_index": 0
+          },
+          {
+            "original_location": [
+              2.103408,
+              41.357424
+            ],
+            "location": [
+              2.103408,
+              41.357424
+            ],
+            "start_time": 811,
+            "duration": 120,
+            "actions": [
+              {
+                "index": 3,
+                "type": "delivery",
+                "start_time": 811,
+                "duration": 120,
+                "shipment_index": 0,
+                "shipment_id": "order_1",
+                "waypoint_index": 1
+              }
+            ],
+            "prev_leg_index": 0,
+            "next_leg_index": 1
+          },
+          {
+            "original_location": [
+              2.120439,
+              41.381274
+            ],
+            "location": [
+              2.120439,
+              41.381274
+            ],
+            "start_time": 1386,
+            "duration": 120,
+            "actions": [
+              {
+                "index": 4,
+                "type": "delivery",
+                "start_time": 1386,
+                "duration": 120,
+                "shipment_index": 1,
+                "shipment_id": "order_2",
+                "waypoint_index": 2
+              }
+            ],
+            "prev_leg_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              2.029982,
+              41.328411
+            ],
+            [
+              2.079528,
+              41.319742
+            ]
+          ],
+          [
+            [
+              2.079528,
+              41.319742
+            ],
+            [
+              2.134579,
+              41.309541
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "agent_index": 0,
+        "time": 1506,
+        "start_time": 0,
+        "end_time": 1506,
+        "distance": 16369,
+        "legs": [
+          {
+            "time": 571,
+            "distance": 9865,
+            "from_waypoint_index": 0,
+            "to_waypoint_index": 1,
+            "steps": [
+              {
+                "from_index": 0,
+                "to_index": 1,
+                "time": 571,
+                "distance": 9865
+              }
+            ]
+          },
+          {
+            "time": 455,
+            "distance": 6504,
+            "from_waypoint_index": 1,
+            "to_waypoint_index": 2,
+            "steps": [
+              {
+                "from_index": 0,
+                "to_index": 1,
+                "time": 455,
+                "distance": 6504
+              }
+            ]
+          }
+        ],
+        "mode": "drive",
+        "actions": [
+          {
+            "index": 0,
+            "type": "start",
+            "start_time": 0,
+            "duration": 0,
+            "waypoint_index": 0
+          },
+          {
+            "index": 1,
+            "type": "pickup",
+            "start_time": 0,
+            "duration": 120,
+            "shipment_index": 1,
+            "shipment_id": "order_3",
+            "location_index": 0,
+            "location_id": "warehouse-0",
+            "waypoint_index": 0
+          },
+          {
+            "index": 2,
+            "type": "pickup",
+            "start_time": 120,
+            "duration": 120,
+            "shipment_index": 0,
+            "shipment_id": "order_4",
+            "location_index": 0,
+            "location_id": "warehouse-0",
+            "waypoint_index": 0
+          },
+          {
+            "index": 3,
+            "type": "delivery",
+            "start_time": 811,
+            "duration": 120,
+            "shipment_index": 0,
+            "shipment_id": "order_3",
+            "waypoint_index": 1
+          },
+          {
+            "index": 4,
+            "type": "delivery",
+            "start_time": 1386,
+            "duration": 120,
+            "shipment_index": 1,
+            "shipment_id": "order_4",
+            "waypoint_index": 2
+          },
+          {
+            "index": 5,
+            "type": "end",
+            "start_time": 1506,
+            "duration": 0
+          }
+        ],
+        "waypoints": [
+          {
+            "original_location": [
+              2.029982,
+              41.328411
+            ],
+            "location": [
+              2.029982,
+              41.328411
+            ],
+            "start_time": 0,
+            "duration": 240,
+            "actions": [
+              {
+                "index": 0,
+                "type": "start",
+                "start_time": 0,
+                "duration": 0,
+                "waypoint_index": 0
+              },
+              {
+                "index": 1,
+                "type": "pickup",
+                "start_time": 0,
+                "duration": 120,
+                "shipment_index": 1,
+                "shipment_id": "order_2",
+                "location_index": 0,
+                "location_id": "warehouse-0",
+                "waypoint_index": 0
+              },
+              {
+                "index": 2,
+                "type": "pickup",
+                "start_time": 120,
+                "duration": 120,
+                "shipment_index": 0,
+                "shipment_id": "order_1",
+                "location_index": 0,
+                "location_id": "warehouse-0",
+                "waypoint_index": 0
+              }
+            ],
+            "original_location_index": 0,
+            "original_location_id": "warehouse-0",
+            "next_leg_index": 0
+          },
+          {
+            "original_location": [
+              2.103408,
+              41.357424
+            ],
+            "location": [
+              2.103408,
+              41.357424
+            ],
+            "start_time": 811,
+            "duration": 120,
+            "actions": [
+              {
+                "index": 3,
+                "type": "delivery",
+                "start_time": 811,
+                "duration": 120,
+                "shipment_index": 0,
+                "shipment_id": "order_1",
+                "waypoint_index": 1
+              }
+            ],
+            "prev_leg_index": 0,
+            "next_leg_index": 1
+          },
+          {
+            "original_location": [
+              2.120439,
+              41.381274
+            ],
+            "location": [
+              2.120439,
+              41.381274
+            ],
+            "start_time": 1386,
+            "duration": 120,
+            "actions": [
+              {
+                "index": 4,
+                "type": "delivery",
+                "start_time": 1386,
+                "duration": 120,
+                "shipment_index": 1,
+                "shipment_id": "order_2",
+                "waypoint_index": 2
+              }
+            ],
+            "prev_leg_index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

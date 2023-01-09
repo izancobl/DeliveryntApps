@@ -1,0 +1,22 @@
+.header {
+    background-color: brown;
+    width: auto;
+    height: 7.5%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.header > img {
+    padding-left: 0%;
+    padding-right: 42%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.b {
+    font-family: helvetica, serif;
+}

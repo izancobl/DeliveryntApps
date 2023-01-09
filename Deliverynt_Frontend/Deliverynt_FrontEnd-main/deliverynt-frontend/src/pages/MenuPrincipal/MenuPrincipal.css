@@ -1,0 +1,23 @@
+.generalMenuPrincipalContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* esto evita los scrolls de abajo y a la izquierda */
+}
+
+.menuPrincipalContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height:92.5%;
+}
+
+.buttonContainerMenuPrincipal {
+    justify-content:center;
+    display:flex;
+    bottom: 30px;
+    position: absolute;
+}
+
+.menu_button {
+    z-index: 999;
+}

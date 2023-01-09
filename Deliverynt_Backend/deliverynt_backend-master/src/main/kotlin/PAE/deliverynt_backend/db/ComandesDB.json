@@ -1,0 +1,106 @@
+[
+  {
+    "id": "gtest@gmail.com_2022-12-07 08:48",
+    "restaurant": "Bar Fib",
+    "numPackages": 75,
+    "productes": [
+      {
+        "id": 1,
+        "name": "Coca-Cola",
+        "size": 5,
+        "price": 0.95,
+        "quantity": 15,
+        "photo": ""
+      }
+    ],
+    "location": {
+      "lon": 2.114522,
+      "lat": 41.387744
+    },
+    "price": 14.25,
+    "userMail": "gtest@gmail.com",
+    "estate": "Created"
+  },
+  {
+    "id": "g2w2@gmail.com_2022-12-07 09:52",
+    "restaurant": "Bar Balmes",
+    "numPackages": 50,
+    "productes": [
+      {
+        "id": 1,
+        "name": "Lays Campesina",
+        "size": 1,
+        "price": 19,
+        "quantity": 10,
+        "photo": ""
+      },
+      {
+        "id": 1,
+        "name": "Escopinyes",
+        "size": 2,
+        "price": 3.9,
+        "quantity": 20,
+        "photo": ""
+      }
+    ],
+    "location": {
+      "lon": 2.163554,
+      "lat": 41.388652
+    },
+    "price": 57.5,
+    "userMail": "g2w2@gmail.com",
+    "estate": "Created"
+  },
+  {
+    "id": "messias@gmail.com_2022-12-11 14:54",
+    "restaurant": "Hilton Gran Via",
+    "numPackages": 30,
+    "productes": [
+      {
+        "id": 1,
+        "name": "Estrella Damm",
+        "size": 1,
+        "price": 1.9,
+        "quantity": 30,
+        "photo": ""
+      }
+    ],
+    "location": {
+      "lon": 2.127165,
+      "lat": 41.355649
+    },
+    "price": 57,
+    "userMail": "messias@gmail.com",
+    "estate": "Created"
+  },
+  {
+    "id": "gesi@gmail.com_2022-12-11 15:37",
+    "restaurant": "Eurohotel Gran Via",
+    "numPackages": 130,
+    "productes": [
+      {
+        "id": 1,
+        "name": "Estrella Damm",
+        "size": 1,
+        "price": 0.9,
+        "quantity": 100,
+        "photo": ""
+      },
+      {
+        "id": 1,
+        "name": "Tonyina Calvo",
+        "size": 1,
+        "price": 0.95,
+        "quantity": 30,
+        "photo": ""
+      }
+    ],
+    "location": {
+      "lon": 2.120873,
+      "lat": 41.351736
+    },
+    "price": 55.55,
+    "userMail": "gesi@gmail.com",
+    "estate": "Created"
+  }
+]

@@ -1,0 +1,16 @@
+.iconText {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+p {
+    margin: 0;
+    letter-spacing: 0.05px;
+}
+
+.boldText {
+    font-weight: 500;
+    padding-left: 6px;
+}

@@ -1,0 +1,60 @@
+.button {
+    width: 270px;
+    height: 45px;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.menu_button {
+    width: 270px;
+    height: 45px;
+    background-color: rgb(151, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.mini_button {
+    width: 130px;
+    height: 50px;
+    background-color: rgb(151, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button:enabled:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+.mini_button:enabled:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+.menu_button:enabled:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+.button:enabled:hover {
+    cursor: pointer;
+}
+
+.mini_button:enabled:hover {
+    cursor: pointer;
+}
+
+.menu_button:enabled:hover {
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: rgb(148, 148, 148);
+}
