@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageActivity"
+    android:id="@+id/storageLayout">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#CB5151"
+        android:text="Distributors"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/header"
+        />
+
+    <GridLayout
+        android:id="@+id/distribs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="150dp"
+        android:columnCount="@integer/material_motion_duration_long_2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/dammBtn">
+
+            <androidx.drawerlayout.widget.DrawerLayout
+                android:id="@+id/ic_damm"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@drawable/estrella" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/damm_text_button"
+                android:layout_gravity="center"
+                android:text="Distributor Damm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="30dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.drawerlayout.widget.DrawerLayout
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/starbucks" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Distributor Starbucks"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+            <androidx.drawerlayout.widget.DrawerLayout
+                android:layout_width="130dp"
+                android:layout_height="105dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/pepsico" />
+
+            <TextView
+                android:id="@+id/pespcio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Distributor Pepsico"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signOut"
+            android:text="Sign Out"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_below="@id/distribs"
+            android:layout_marginBottom="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signOut"
+            android:background="#FAF9F9">
+
+            <ImageView
+                android:id="@+id/stButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_shop_red"
+                />
+
+            <ImageView
+                android:id="@+id/commandsButton"
+                android:layout_width="100dp"
+                android:layout_height="72dp"
+                android:padding="16dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_list_grey"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
