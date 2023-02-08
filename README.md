@@ -1,5 +1,5 @@
-# DeliveryntApps
-Here you can find both of the applications of Deliverynt: client and distributor apps.
+# Deliveryn't Apps
+Here you can find both of the applications of Deliveryn't: client and distributor apps.
 
 Created by:
 - Gerard Castell
